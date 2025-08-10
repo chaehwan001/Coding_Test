@@ -1,0 +1,21 @@
+package ct.week01;
+/*
+ * 조건문 if
+ */
+public class Ex04 {
+	public static void main(String[] args) {
+		int i = 10;
+		//1
+		if(i > 60) System.out.println("합격");
+		
+		//2
+		if(i > 60) System.out.println("합격");
+		else System.out.println("불합격");
+		
+		//n
+		if(i >= 90) System.out.println("A");
+		else if(i >= 80) System.out.println("B");
+		else System.out.println("F");
+		
+	}
+}
